@@ -4,8 +4,12 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:async';
+import 'dart:ui';
+import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'auth_forgot_password_model.dart';
 export 'auth_forgot_password_model.dart';
 
@@ -87,7 +91,9 @@ class _AuthForgotPasswordWidgetState extends State<AuthForgotPasswordWidget> {
               ),
             ),
             title: Text(
-              'Page Title',
+              FFLocalizations.of(context).getText(
+                'yssqvcx4' /* Page Title */,
+              ),
               style: FlutterFlowTheme.of(context).headlineMedium.override(
                     fontFamily: 'Inter Tight',
                     color: Colors.white,
@@ -133,7 +139,11 @@ class _AuthForgotPasswordWidgetState extends State<AuthForgotPasswordWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     12.0, 32.0, 0.0, 25.0),
                                 child: Text(
-                                  'Need help with your\naccount?',
+                                  FFLocalizations.of(context).getText(
+                                    'cvd8piry' /* Need help with your
+account? */
+                                    ,
+                                  ),
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .displayMedium
@@ -151,7 +161,9 @@ class _AuthForgotPasswordWidgetState extends State<AuthForgotPasswordWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     12.0, 25.0, 12.0, 25.0),
                                 child: Text(
-                                  'Enter the email address associated with your account and we will send you a link to reset your password.',
+                                  FFLocalizations.of(context).getText(
+                                    't4vr9vwb' /* Enter the email address associ... */,
+                                  ),
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
@@ -173,7 +185,10 @@ class _AuthForgotPasswordWidgetState extends State<AuthForgotPasswordWidget> {
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    labelText: 'Email Address',
+                                    labelText:
+                                        FFLocalizations.of(context).getText(
+                                      '58gbxd5d' /* Email Address */,
+                                    ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelLarge
                                         .override(
@@ -267,7 +282,9 @@ class _AuthForgotPasswordWidgetState extends State<AuthForgotPasswordWidget> {
                                       context: context,
                                     );
                                   },
-                                  text: 'Send Link',
+                                  text: FFLocalizations.of(context).getText(
+                                    '1q8mi8l2' /* Send Link */,
+                                  ),
                                   options: FFButtonOptions(
                                     width: double.infinity,
                                     height: 60.0,
@@ -296,7 +313,9 @@ class _AuthForgotPasswordWidgetState extends State<AuthForgotPasswordWidget> {
                                 ),
                               ),
                             Text(
-                              'Forgot your email?',
+                              FFLocalizations.of(context).getText(
+                                '12qbrsbh' /* Forgot your email? */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(

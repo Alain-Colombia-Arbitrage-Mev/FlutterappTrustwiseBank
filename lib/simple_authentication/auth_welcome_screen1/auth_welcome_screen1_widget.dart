@@ -1,9 +1,12 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
+import 'dart:ui';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart'
     as smooth_page_indicator;
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'auth_welcome_screen1_model.dart';
 export 'auth_welcome_screen1_model.dart';
 
@@ -101,7 +104,9 @@ class _AuthWelcomeScreen1WidgetState extends State<AuthWelcomeScreen1Widget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 0.0, 8.0),
                                   child: Text(
-                                    'TrustWise Bank',
+                                    FFLocalizations.of(context).getText(
+                                      'uugsx3mn' /* TrustWise Bank */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
                                         .override(
@@ -112,7 +117,9 @@ class _AuthWelcomeScreen1WidgetState extends State<AuthWelcomeScreen1Widget> {
                                   ),
                                 ),
                                 Text(
-                                  'TrustWise makes global banking simple and efficient',
+                                  FFLocalizations.of(context).getText(
+                                    '1rgkfwus' /* TrustWise makes global banking... */,
+                                  ),
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .titleSmall
@@ -177,7 +184,9 @@ class _AuthWelcomeScreen1WidgetState extends State<AuthWelcomeScreen1Widget> {
                   onPressed: () {
                     print('Login pressed ...');
                   },
-                  text: 'Login',
+                  text: FFLocalizations.of(context).getText(
+                    'juwh9o82' /* Login */,
+                  ),
                   options: FFButtonOptions(
                     width: 223.5,
                     height: 40.0,

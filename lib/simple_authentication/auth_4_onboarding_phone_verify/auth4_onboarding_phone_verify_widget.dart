@@ -3,10 +3,16 @@ import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
+import 'dart:math';
+import 'dart:ui';
 import 'package:pin_code_fields/pin_code_fields.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'auth4_onboarding_phone_verify_model.dart';
 export 'auth4_onboarding_phone_verify_model.dart';
 
@@ -152,7 +158,9 @@ class _Auth4OnboardingPhoneVerifyWidgetState
                       Align(
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Text(
-                          'Verify Code',
+                          FFLocalizations.of(context).getText(
+                            'kwmzdxaq' /* Verify Code */,
+                          ),
                           textAlign: TextAlign.start,
                           style: FlutterFlowTheme.of(context)
                               .displayMedium
@@ -182,13 +190,15 @@ class _Auth4OnboardingPhoneVerifyWidgetState
                                     text: TextSpan(
                                       children: [
                                         TextSpan(
-                                          text:
-                                              'Enter the 6 digit code we sent to the number below: ',
+                                          text: FFLocalizations.of(context)
+                                              .getText(
+                                            '327ae6y2' /* Enter the 6 digit code we sent... */,
+                                          ),
                                           style: TextStyle(),
                                         ),
                                         TextSpan(
                                           text: valueOrDefault<String>(
-                                            widget.phoneNumber,
+                                            widget!.phoneNumber,
                                             '--',
                                           ),
                                           style: TextStyle(
@@ -278,7 +288,9 @@ class _Auth4OnboardingPhoneVerifyWidgetState
                               onPressed: () {
                                 print('Button pressed ...');
                               },
-                              text: 'Verify Code',
+                              text: FFLocalizations.of(context).getText(
+                                'jokq71lz' /* Verify Code */,
+                              ),
                               options: FFButtonOptions(
                                 height: 52.0,
                                 padding: EdgeInsetsDirectional.fromSTEB(

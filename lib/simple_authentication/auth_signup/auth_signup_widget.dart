@@ -2,9 +2,13 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/simple_authentication/loginwithsocial/loginwithsocial_widget.dart';
+import 'dart:ui';
 import '/index.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'auth_signup_model.dart';
 export 'auth_signup_model.dart';
 
@@ -95,7 +99,9 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 0.0, 0.0),
                       child: Text(
-                        'TrustWise',
+                        FFLocalizations.of(context).getText(
+                          'kdmzkygp' /* TrustWise */,
+                        ),
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Anuphan',
@@ -120,7 +126,9 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               12.0, 24.0, 0.0, 8.0),
                           child: Text(
-                            'Sign up for an account',
+                            FFLocalizations.of(context).getText(
+                              'svzijxta' /* Sign up for an account */,
+                            ),
                             textAlign: TextAlign.start,
                             style: FlutterFlowTheme.of(context)
                                 .displayMedium
@@ -136,7 +144,9 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               12.0, 0.0, 12.0, 0.0),
                           child: Text(
-                            'Send, spend and save smarter',
+                            FFLocalizations.of(context).getText(
+                              '2wrpsq1f' /* Send, spend and save smarter */,
+                            ),
                             textAlign: TextAlign.start,
                             style: FlutterFlowTheme.of(context)
                                 .labelLarge
@@ -165,7 +175,9 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     120.0, 8.0, 12.0, 12.0),
                                 child: Text(
-                                  'Or using your email',
+                                  FFLocalizations.of(context).getText(
+                                    '6zinuape' /* Or using your email */,
+                                  ),
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
@@ -198,7 +210,9 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                         fontFamily: 'Inter',
                                         letterSpacing: 0.0,
                                       ),
-                                  hintText: 'TextField',
+                                  hintText: FFLocalizations.of(context).getText(
+                                    'y8seld3g' /* TextField */,
+                                  ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
@@ -274,7 +288,10 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                               fontFamily: 'Inter',
                                               letterSpacing: 0.0,
                                             ),
-                                        hintText: 'Frist name',
+                                        hintText:
+                                            FFLocalizations.of(context).getText(
+                                          'cbcsfby5' /* Frist name */,
+                                        ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .labelMedium
                                             .override(
@@ -356,7 +373,10 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                               fontFamily: 'Inter',
                                               letterSpacing: 0.0,
                                             ),
-                                        hintText: 'Last name',
+                                        hintText:
+                                            FFLocalizations.of(context).getText(
+                                          '5i2035xk' /* Last name */,
+                                        ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .labelMedium
                                             .override(
@@ -446,7 +466,11 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
-                                              labelText: 'Email Address',
+                                              labelText:
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                's8dqf4cr' /* Email Address */,
+                                              ),
                                               labelStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .labelLarge
@@ -582,7 +606,11 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                           obscureText:
                                               !_model.passwordVisibility,
                                           decoration: InputDecoration(
-                                            labelText: 'Password',
+                                            labelText:
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                              'o0ct5emn' /* Password */,
+                                            ),
                                             labelStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
@@ -724,8 +752,11 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                               text: TextSpan(
                                                 children: [
                                                   TextSpan(
-                                                    text:
-                                                        'By creating an account, you agreeing to our ',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      '6pvokz2p' /* By creating an account, you ag... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -736,7 +767,11 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                                         ),
                                                   ),
                                                   TextSpan(
-                                                    text: 'Privacy Policy,',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'lxtynw2d' /* Privacy Policy, */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .titleSmall
@@ -747,7 +782,11 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                                         ),
                                                   ),
                                                   TextSpan(
-                                                    text: 'and',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      '86zp7n4q' /* and */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyLarge
@@ -757,8 +796,11 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                                         ),
                                                   ),
                                                   TextSpan(
-                                                    text:
-                                                        ' Electronics Communication Policy.',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'ocw6xymk' /*  Electronics Communication Pol... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .titleSmall
@@ -829,7 +871,10 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                               Auth4OnboardingOneWidget
                                                   .routeName);
                                         },
-                                        text: 'Sign Up',
+                                        text:
+                                            FFLocalizations.of(context).getText(
+                                          'pa6g1a9u' /* Sign Up */,
+                                        ),
                                         options: FFButtonOptions(
                                           width: 327.0,
                                           height: 56.0,
@@ -880,7 +925,9 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                       text: TextSpan(
                         children: [
                           TextSpan(
-                            text: 'Already have an account?',
+                            text: FFLocalizations.of(context).getText(
+                              'ny12q8ft' /* Already have an account? */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -890,7 +937,9 @@ class _AuthSignupWidgetState extends State<AuthSignupWidget> {
                                 ),
                           ),
                           TextSpan(
-                            text: ' Sign In',
+                            text: FFLocalizations.of(context).getText(
+                              '1p9u70nf' /*  Sign In */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(

@@ -1,10 +1,15 @@
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import 'dart:math';
+import 'dart:ui';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart'
     as smooth_page_indicator;
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'sliderdepalabras_model.dart';
 export 'sliderdepalabras_model.dart';
 
@@ -226,7 +231,9 @@ class _SliderdepalabrasWidgetState extends State<SliderdepalabrasWidget>
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'TrustWise Bank',
+                        FFLocalizations.of(context).getText(
+                          '7r6yifxg' /* TrustWise Bank */,
+                        ),
                         textAlign: TextAlign.center,
                         style:
                             FlutterFlowTheme.of(context).displaySmall.override(
@@ -240,7 +247,9 @@ class _SliderdepalabrasWidgetState extends State<SliderdepalabrasWidget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                         child: Text(
-                          'TrustWise makes global banking simple and efficient',
+                          FFLocalizations.of(context).getText(
+                            'jz9ehg02' /* TrustWise makes global banking... */,
+                          ),
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).labelLarge.override(
@@ -260,7 +269,9 @@ class _SliderdepalabrasWidgetState extends State<SliderdepalabrasWidget>
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Multi -Currency',
+                        FFLocalizations.of(context).getText(
+                          'xkx7th7l' /* Multi -Currency */,
+                        ),
                         textAlign: TextAlign.center,
                         style:
                             FlutterFlowTheme.of(context).displaySmall.override(
@@ -274,7 +285,9 @@ class _SliderdepalabrasWidgetState extends State<SliderdepalabrasWidget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                         child: Text(
-                          'Access and manage multiple currencies seamlessly in one secure location. ',
+                          FFLocalizations.of(context).getText(
+                            'mm7f5k8v' /* Access and manage multiple cur... */,
+                          ),
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).labelLarge.override(
@@ -294,7 +307,9 @@ class _SliderdepalabrasWidgetState extends State<SliderdepalabrasWidget>
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Your Keys, Your funds',
+                        FFLocalizations.of(context).getText(
+                          'a37qr39d' /* Your Keys, Your funds */,
+                        ),
                         textAlign: TextAlign.center,
                         style:
                             FlutterFlowTheme.of(context).displaySmall.override(
@@ -308,7 +323,9 @@ class _SliderdepalabrasWidgetState extends State<SliderdepalabrasWidget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                         child: Text(
-                          'FirstClass Gassless Web3 Wallet . \n\nWe made crypto transfer simple',
+                          FFLocalizations.of(context).getText(
+                            '7dk6sspv' /* FirstClass Gassless Web3 Walle... */,
+                          ),
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).labelLarge.override(

@@ -6,12 +6,19 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/upload_data.dart';
+import 'dart:math';
+import 'dart:ui';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart'
     as smooth_page_indicator;
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
+import 'package:provider/provider.dart';
 import 'auth4_onboarding_one_model.dart';
 export 'auth4_onboarding_one_model.dart';
 
@@ -818,7 +825,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                           0,
                                           min(
                                               valueOrDefault<int>(
-                                                widget.index,
+                                                widget!.index,
                                                 0,
                                               ),
                                               4))),
@@ -841,7 +848,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 32.0, 0.0, 8.0),
                                           child: Text(
-                                            'Validate Phone',
+                                            FFLocalizations.of(context).getText(
+                                              '9e1k96ue' /* Validate Phone */,
+                                            ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .displayMedium
@@ -858,7 +867,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 4.0, 0.0, 8.0),
                                           child: Text(
-                                            'Enter your phone number in order to get started with your profile creation.',
+                                            FFLocalizations.of(context).getText(
+                                              'ymq4t4qs' /* Enter your phone number in ord... */,
+                                            ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
@@ -884,7 +895,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                             ],
                                             obscureText: false,
                                             decoration: InputDecoration(
-                                              labelText: 'Phone Number',
+                                              labelText:
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                '2c7jcopv' /* Phone Number */,
+                                              ),
                                               labelStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .labelLarge
@@ -1026,7 +1041,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'We\'ll send a 6 digit code to you!',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'a1goa34t' /* We'll send a 6 digit code to y... */,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyLarge
@@ -1046,7 +1065,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                                   0.0,
                                                                   0.0),
                                                       child: Text(
-                                                        'You will be done in no time, keep up the great work!',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'rdtcc53q' /* You will be done in no time, k... */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1088,7 +1111,10 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 32.0, 0.0, 8.0),
                                             child: Text(
-                                              'What\'s your name?',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '1pygzfjr' /* What's your name? */,
+                                              ),
                                               textAlign: TextAlign.start,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1106,7 +1132,10 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 8.0),
                                             child: Text(
-                                              'Enter a name that people would recognize so your friends can find you.',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'srhzpx5f' /* Enter a name that people would... */,
+                                              ),
                                               textAlign: TextAlign.start,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1133,7 +1162,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               ],
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelText: 'Your Name...',
+                                                labelText:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'tb2xlooe' /* Your Name... */,
+                                                ),
                                                 labelStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -1259,7 +1292,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                   TextCapitalization.none,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelText: 'Email ',
+                                                labelText:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'prd94eew' /* Email  */,
+                                                ),
                                                 labelStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -1267,7 +1304,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                           fontFamily: 'Inter',
                                                           letterSpacing: 0.0,
                                                         ),
-                                                hintText: 'Email Address:',
+                                                hintText:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'x9d5p53v' /* Email Address: */,
+                                                ),
                                                 hintStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -1395,7 +1436,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                   TextCapitalization.none,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelText: 'Username',
+                                                labelText:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'qehz0see' /* Username */,
+                                                ),
                                                 labelStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -1403,7 +1448,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                           fontFamily: 'Inter',
                                                           letterSpacing: 0.0,
                                                         ),
-                                                hintText: '@fluffyfreddy',
+                                                hintText:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  '4fixud19' /* @fluffyfreddy */,
+                                                ),
                                                 hintStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -1545,7 +1594,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Congrats! Your account is created!',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'x8q4fw39' /* Congrats! Your account is crea... */,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyLarge
@@ -1565,7 +1618,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                                   0.0,
                                                                   0.0),
                                                       child: Text(
-                                                        'Just a few more steps and we\'ll have you onboarded!',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'judgyyuu' /* Just a few more steps and we'l... */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1611,7 +1668,10 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                   .fromSTEB(
                                                       0.0, 32.0, 0.0, 8.0),
                                               child: Text(
-                                                'Upload your face',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '1d2b9wb7' /* Upload your face */,
+                                                ),
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -1632,7 +1692,10 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                     .fromSTEB(
                                                         0.0, 4.0, 0.0, 8.0),
                                                 child: Text(
-                                                  'We need to know more about you, please help us with a clear selfie photo of your face',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'v4iesncm' /* We need to know more about you... */,
+                                                  ),
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -1867,7 +1930,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                       }
                                                     }
                                                   },
-                                                  text: 'Upload Image',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'bkgnc05v' /* Upload Image */,
+                                                  ),
                                                   options: FFButtonOptions(
                                                     height: 44.0,
                                                     padding:
@@ -1946,7 +2013,10 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 32.0, 0.0, 8.0),
                                             child: Text(
-                                              'How old are you?',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'fie1e4nb' /* How old are you? */,
+                                              ),
                                               textAlign: TextAlign.start,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1964,7 +2034,10 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 8.0),
                                             child: Text(
-                                              'Let us know how old you are in order to continue.',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'dsykf95a' /* Let us know how old you are in... */,
+                                              ),
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -2086,7 +2159,11 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                     if (_model.datePicked ==
                                                         null)
                                                       Text(
-                                                        'Date of Birth',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'yfslzjq8' /* Date of Birth */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -2102,8 +2179,14 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                                 ),
                                                       ),
                                                     Text(
-                                                      dateTimeFormat("yMd",
-                                                          _model.datePicked),
+                                                      dateTimeFormat(
+                                                        "yMd",
+                                                        _model.datePicked,
+                                                        locale:
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .languageCode,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .displayMedium
@@ -2140,7 +2223,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 32.0, 0.0, 8.0),
                                           child: Text(
-                                            'Your profile!',
+                                            FFLocalizations.of(context).getText(
+                                              'afzjxr3v' /* Your profile! */,
+                                            ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .displayMedium
@@ -2156,7 +2241,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 4.0, 0.0, 8.0),
                                           child: Text(
-                                            'Congrats, you made it! We can\'t wait for you to get started!',
+                                            FFLocalizations.of(context).getText(
+                                              'a79olr3o' /* Congrats, you made it! We can'... */,
+                                            ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
@@ -2223,7 +2310,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 8.0, 0.0, 0.0),
                                           child: Text(
-                                            'Your name',
+                                            FFLocalizations.of(context).getText(
+                                              'r3ra28wu' /* Your name */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium
                                                 .override(
@@ -2251,7 +2340,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 8.0, 0.0, 0.0),
                                           child: Text(
-                                            'Username',
+                                            FFLocalizations.of(context).getText(
+                                              'n7utry6k' /* Username */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium
                                                 .override(
@@ -2282,7 +2373,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 8.0, 0.0, 0.0),
                                           child: Text(
-                                            'Your Bio',
+                                            FFLocalizations.of(context).getText(
+                                              'vvmcxxf5' /* Your Bio */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium
                                                 .override(
@@ -2296,7 +2389,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 12.0, 0.0, 0.0),
                                           child: Text(
-                                            'Hello World',
+                                            FFLocalizations.of(context).getText(
+                                              '96v4enkk' /* Hello World */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -2310,7 +2405,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 8.0, 0.0, 0.0),
                                           child: Text(
-                                            'Date of Birth',
+                                            FFLocalizations.of(context).getText(
+                                              '9om765vl' /* Date of Birth */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium
                                                 .override(
@@ -2325,7 +2422,12 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                   0.0, 4.0, 0.0, 0.0),
                                           child: Text(
                                             dateTimeFormat(
-                                                "yMMMd", _model.datePicked),
+                                              "yMMMd",
+                                              _model.datePicked,
+                                              locale:
+                                                  FFLocalizations.of(context)
+                                                      .languageCode,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineMedium
                                                 .override(
@@ -2353,7 +2455,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                             0,
                                             min(
                                                 valueOrDefault<int>(
-                                                  widget.index,
+                                                  widget!.index,
                                                   0,
                                                 ),
                                                 4))),
@@ -2408,7 +2510,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                       curve: Curves.ease,
                                     );
                                   },
-                                  text: 'Back',
+                                  text: FFLocalizations.of(context).getText(
+                                    'iac09amn' /* Back */,
+                                  ),
                                   options: FFButtonOptions(
                                     height: 52.0,
                                     padding: EdgeInsetsDirectional.fromSTEB(
