@@ -1,4 +1,4 @@
-package com.mycompany.firebase
+package com.trackwise.trustwise
 
 import io.flutter.embedding.android.FlutterActivity
 

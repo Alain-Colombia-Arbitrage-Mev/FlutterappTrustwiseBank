@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "724511662675",
+    "project_id": "firebase-xk7cei",
+    "storage_bucket": "firebase-xk7cei.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724511662675:android:25cf4b4e9bc1b8a7629ca6",
+        "android_client_info": {
+          "package_name": "com.trackwise.trustwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZeda1HH60864YQlzLtE-jWL2GKFq6L08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

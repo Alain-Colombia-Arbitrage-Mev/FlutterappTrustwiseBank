@@ -153,7 +153,7 @@ class _Auth4OnboardingPhoneVerifyWidgetState
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 50.0, 0.0, 0.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Align(
                         alignment: AlignmentDirectional(0.0, 0.0),
@@ -166,6 +166,7 @@ class _Auth4OnboardingPhoneVerifyWidgetState
                               .displayMedium
                               .override(
                                 fontFamily: 'Inter Tight',
+                                fontSize: 34.0,
                                 letterSpacing: 0.0,
                               ),
                         ).animateOnPageLoad(

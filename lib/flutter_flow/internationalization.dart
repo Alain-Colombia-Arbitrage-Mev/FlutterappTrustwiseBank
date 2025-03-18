@@ -385,6 +385,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'TrustWise hace que la banca global sea sencilla y eficiente',
       'zh_Hans': 'TrustWise 使全球银行业务变得简单而高效',
     },
+    'l34ztyp1': {
+      'en': 'Hello World',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'fauck09p': {
+      'en': 'Hello World',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
     'juwh9o82': {
       'en': 'Login',
       'ar': 'تسجيل الدخول',
@@ -507,12 +519,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'هل نسيت بريدك الإلكتروني؟',
       'es': '¿Olvidaste tu correo electrónico?',
       'zh_Hans': '忘记了你的电子邮箱？',
-    },
-    'yssqvcx4': {
-      'en': 'Page Title',
-      'ar': 'عنوان الصفحة',
-      'es': 'Título de la página',
-      'zh_Hans': '页面标题',
     },
     '64jk2x66': {
       'en': 'Home',
@@ -672,6 +678,33 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': 'FirstClass Gassless Web3 钱包。\n\n我们让加密货币转账变得简单',
     },
   },
+  // BalanceBankcard
+  {
+    '6rbmg6qs': {
+      'en': 'Balance',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '1jmhabkj': {
+      'en': '\$7,630',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'f40ase9q': {
+      'en': 'USD',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'yb6ana3s': {
+      'en': 'Savings',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
   // Miscellaneous
   {
     'uezboun9': {
@@ -681,6 +714,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '',
     },
     'a3e6b11d': {
+      'en': '',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '8dnxdjox': {
+      'en': '',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'e9yrwfwi': {
       'en': '',
       'ar': '',
       'es': '',

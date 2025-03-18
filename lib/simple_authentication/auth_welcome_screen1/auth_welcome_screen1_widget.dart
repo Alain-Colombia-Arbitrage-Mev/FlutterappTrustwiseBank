@@ -136,7 +136,46 @@ class _AuthWelcomeScreen1WidgetState extends State<AuthWelcomeScreen1Widget> {
                           ),
                           Column(
                             mainAxisSize: MainAxisSize.max,
-                            children: [],
+                            children: [
+                              Container(
+                                width: MediaQuery.sizeOf(context).width * 1.0,
+                                height: 491.1,
+                                decoration: BoxDecoration(
+                                  color: Colors.black,
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(8.0),
+                                  child: Image.network(
+                                    'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/firebase-xk7cei/assets/kt0gvi0ad70v/Tarjetas_2.png',
+                                    width: 273.9,
+                                    height: 612.4,
+                                    fit: BoxFit.fitWidth,
+                                  ),
+                                ),
+                              ),
+                              Text(
+                                FFLocalizations.of(context).getText(
+                                  'l34ztyp1' /* Hello World */,
+                                ),
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      fontFamily: 'Inter',
+                                      letterSpacing: 0.0,
+                                    ),
+                              ),
+                              Text(
+                                FFLocalizations.of(context).getText(
+                                  'fauck09p' /* Hello World */,
+                                ),
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      fontFamily: 'Inter',
+                                      letterSpacing: 0.0,
+                                    ),
+                              ),
+                            ],
                           ),
                           Column(
                             mainAxisSize: MainAxisSize.max,

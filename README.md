@@ -1,4 +1,4 @@
-# Firebase
+# Trustwise
 
 A new Flutter project.
 

@@ -90,17 +90,6 @@ class _AuthForgotPasswordWidgetState extends State<AuthForgotPasswordWidget> {
                 },
               ),
             ),
-            title: Text(
-              FFLocalizations.of(context).getText(
-                'yssqvcx4' /* Page Title */,
-              ),
-              style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Inter Tight',
-                    color: Colors.white,
-                    fontSize: 22.0,
-                    letterSpacing: 0.0,
-                  ),
-            ),
             actions: [],
             centerTitle: true,
             elevation: 2.0,

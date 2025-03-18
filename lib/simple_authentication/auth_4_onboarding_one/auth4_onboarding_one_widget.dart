@@ -1679,6 +1679,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                         .override(
                                                           fontFamily:
                                                               'Inter Tight',
+                                                          fontSize: 34.0,
                                                           letterSpacing: 0.0,
                                                         ),
                                               ).animateOnPageLoad(animationsMap[
