@@ -45,6 +45,12 @@ class _BalanceBankcardWidgetState extends State<BalanceBankcardWidget> {
         width: 370.0,
         height: 190.0,
         decoration: BoxDecoration(
+          image: DecorationImage(
+            fit: BoxFit.cover,
+            image: Image.asset(
+              'assets/images/card.png',
+            ).image,
+          ),
           boxShadow: [
             BoxShadow(
               blurRadius: 6.0,
@@ -76,8 +82,9 @@ class _BalanceBankcardWidgetState extends State<BalanceBankcardWidget> {
               SvgPicture.network(
                 'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/firebase-xk7cei/assets/bghoeuqsjnbp/logosimbolo.svg',
                 width: 44.0,
-                height: 44.0,
-                fit: BoxFit.cover,
+                height: 40.0,
+                fit: BoxFit.fitHeight,
+                alignment: Alignment(0.0, 0.0),
               ),
               Text(
                 FFLocalizations.of(context).getText(

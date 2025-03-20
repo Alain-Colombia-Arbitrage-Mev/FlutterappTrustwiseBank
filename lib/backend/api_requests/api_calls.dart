@@ -33,6 +33,25 @@ class LoginapiCall {
   }
 }
 
+class RegisterCall {
+  static Future<ApiCallResponse> call() async {
+    return ApiManager.instance.makeApiCall(
+      callName: 'register',
+      apiUrl: 'https://panel.trustwisebank.com/api/auth/create',
+      callType: ApiCallType.POST,
+      headers: {},
+      params: {},
+      bodyType: BodyType.JSON,
+      returnBody: true,
+      encodeBodyUtf8: false,
+      decodeUtf8: false,
+      cache: false,
+      isStreamingApi: false,
+      alwaysAllowBody: false,
+    );
+  }
+}
+
 class ApiPagingParams {
   int nextPageNumber = 0;
   int numItems = 0;

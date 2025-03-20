@@ -784,9 +784,9 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
             borderRadius: BorderRadius.circular(8.0),
             child: SvgPicture.network(
               'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/firebase-xk7cei/assets/wgi1axioreex/logoentero.svg',
-              width: 200.0,
-              height: 46.19,
-              fit: BoxFit.fitWidth,
+              width: 230.5,
+              height: 40.0,
+              fit: BoxFit.contain,
             ),
           ),
           actions: [],

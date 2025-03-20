@@ -386,22 +386,42 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': 'TrustWise 使全球银行业务变得简单而高效',
     },
     'l34ztyp1': {
-      'en': 'Hello World',
+      'en': 'Multi -Currency',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
     'fauck09p': {
-      'en': 'Hello World',
+      'en':
+          'Access and manage multiple currencies seamlessly in one secure location. ',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
-    'juwh9o82': {
+    'kmg89v66': {
+      'en': 'Your Keys, Your funds',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'shnm19cm': {
+      'en':
+          'FirstClass Gassless Web3 Wallet . \n\nWe made crypto transfer simple',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'p4dyty3s': {
       'en': 'Login',
-      'ar': 'تسجيل الدخول',
-      'es': 'Acceso',
-      'zh_Hans': '登录',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '1nz5ff19': {
+      'en': 'Sign up ',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
     },
     'gu7rhcot': {
       'en': 'Home',
@@ -633,51 +653,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '家',
     },
   },
-  // sliderdepalabras
-  {
-    '7r6yifxg': {
-      'en': 'TrustWise Bank',
-      'ar': 'بنك تراست وايز',
-      'es': 'Banco TrustWise',
-      'zh_Hans': 'TrustWise 银行',
-    },
-    'jz9ehg02': {
-      'en': 'TrustWise makes global banking simple and efficient',
-      'ar': 'TrustWise يجعل الخدمات المصرفية العالمية بسيطة وفعالة',
-      'es': 'TrustWise hace que la banca global sea sencilla y eficiente',
-      'zh_Hans': 'TrustWise 使全球银行业务变得简单而高效',
-    },
-    'xkx7th7l': {
-      'en': 'Multi -Currency',
-      'ar': 'متعدد العملات',
-      'es': 'Multidivisa',
-      'zh_Hans': '多种货币',
-    },
-    'mm7f5k8v': {
-      'en':
-          'Access and manage multiple currencies seamlessly in one secure location. ',
-      'ar':
-          'يمكنك الوصول إلى العملات المتعددة وإدارتها بسلاسة في مكان واحد آمن.',
-      'es':
-          'Acceda y administre múltiples monedas sin problemas en una ubicación segura.',
-      'zh_Hans': '在一个安全的位置无缝访问和管理多种货币。',
-    },
-    'a37qr39d': {
-      'en': 'Your Keys, Your funds',
-      'ar': 'مفاتيحك، أموالك',
-      'es': 'Tus llaves, tus fondos',
-      'zh_Hans': '你的钥匙，你的资金',
-    },
-    '7dk6sspv': {
-      'en':
-          'FirstClass Gassless Web3 Wallet . \n\nWe made crypto transfer simple',
-      'ar':
-          'محفظة ويب 3 من FirstClass Gassless.\n\nجعلنا تحويل العملات المشفرة سهلاً',
-      'es':
-          'Monedero Web3 sin gas de primera clase.\n\nSimplificamos la transferencia de criptomonedas.',
-      'zh_Hans': 'FirstClass Gassless Web3 钱包。\n\n我们让加密货币转账变得简单',
-    },
-  },
   // BalanceBankcard
   {
     '6rbmg6qs': {
@@ -700,6 +675,156 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'yb6ana3s': {
       'en': 'Savings',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // Iconos
+  {
+    'wz7c8cxr': {
+      'en': 'Send ',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'poej74kg': {
+      'en': 'Receive',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'f5q5wifh': {
+      'en': 'Transactions',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '6wwv6v4w': {
+      'en': 'Wallet',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // PushNotify
+  {
+    '49lmgghf': {
+      'en': 'Notification Title',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'w9vwm1le': {
+      'en': 'Some body copy that is present in this small notification.',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // Menuuser
+  {
+    'ao2b8mzz': {
+      'en': 'Profile',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    't50sl2hw': {
+      'en': 'Randy Peterson',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'kues2nbz': {
+      'en': 'randy.p@domainname.com',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'q1tjnl97': {
+      'en': 'My Accounts',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'nypjimz0': {
+      'en': 'Settings',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'jv3jq17k': {
+      'en': 'Billing Details',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'i8arx0u7': {
+      'en': 'Billing Details',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '63i3cswe': {
+      'en': 'Billing Details',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'x6cjctj3': {
+      'en': 'Billing Details',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'm7rco4qf': {
+      'en': 'Billing Details',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'x69s3s8i': {
+      'en': 'Billing Details',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'p4zyrl5f': {
+      'en': 'Log out',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // downbar
+  {
+    'iy8uq564': {
+      'en': 'Home',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '2xl4so34': {
+      'en': 'Accounts',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'tbb565ls': {
+      'en': 'Send',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'ic4a2y60': {
+      'en': 'Receive',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'x3ryodto': {
+      'en': 'Config',
       'ar': '',
       'es': '',
       'zh_Hans': '',
