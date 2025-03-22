@@ -1122,6 +1122,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                       .override(
                                                         fontFamily:
                                                             'Inter Tight',
+                                                        fontSize: 30.0,
                                                         letterSpacing: 0.0,
                                                       ),
                                             ).animateOnPageLoad(animationsMap[
@@ -2025,6 +2026,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                       .override(
                                                         fontFamily:
                                                             'Inter Tight',
+                                                        fontSize: 30.0,
                                                         letterSpacing: 0.0,
                                                       ),
                                             ).animateOnPageLoad(animationsMap[
@@ -2156,6 +2158,8 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                 child: Row(
                                                   mainAxisSize:
                                                       MainAxisSize.max,
+                                                  mainAxisAlignment:
+                                                      MainAxisAlignment.center,
                                                   children: [
                                                     if (_model.datePicked ==
                                                         null)
@@ -2175,6 +2179,8 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
+                                                                  fontSize:
+                                                                      30.0,
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -2194,6 +2200,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                           .override(
                                                             fontFamily:
                                                                 'Inter Tight',
+                                                            fontSize: 30.0,
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
@@ -2232,6 +2239,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                 .displayMedium
                                                 .override(
                                                   fontFamily: 'Inter Tight',
+                                                  fontSize: 30.0,
                                                   letterSpacing: 0.0,
                                                 ),
                                           ).animateOnPageLoad(animationsMap[
@@ -2250,6 +2258,7 @@ class _Auth4OnboardingOneWidgetState extends State<Auth4OnboardingOneWidget>
                                                 .labelLarge
                                                 .override(
                                                   fontFamily: 'Inter',
+                                                  fontSize: 1.0,
                                                   letterSpacing: 0.0,
                                                 ),
                                           ).animateOnPageLoad(animationsMap[

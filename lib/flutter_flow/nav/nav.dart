@@ -322,15 +322,11 @@ class FFRoute {
                 )
               : builder(context, ffParams);
           final child = appStateNotifier.loading
-              ? Center(
-                  child: SizedBox(
-                    width: 50.0,
-                    height: 50.0,
-                    child: CircularProgressIndicator(
-                      valueColor: AlwaysStoppedAnimation<Color>(
-                        FlutterFlowTheme.of(context).primary,
-                      ),
-                    ),
+              ? Container(
+                  color: Color(0xFF4615A6),
+                  child: Image.asset(
+                    'assets/images/splashscreeen.svg',
+                    fit: BoxFit.fill,
                   ),
                 )
               : PushNotificationsHandler(child: page);

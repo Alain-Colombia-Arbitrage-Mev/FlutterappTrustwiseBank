@@ -373,52 +373,98 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // auth_WelcomeScreen1
   {
-    'uugsx3mn': {
+    'odv8xe9f': {
+      'en': 'Welcome to ',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'ywm2r5k0': {
       'en': 'TrustWise Bank',
-      'ar': 'بنك تراست وايز',
-      'es': 'Banco TrustWise',
-      'zh_Hans': 'TrustWise 银行',
-    },
-    '1rgkfwus': {
-      'en': 'TrustWise makes global banking simple and efficient',
-      'ar': 'TrustWise يجعل الخدمات المصرفية العالمية بسيطة وفعالة',
-      'es': 'TrustWise hace que la banca global sea sencilla y eficiente',
-      'zh_Hans': 'TrustWise 使全球银行业务变得简单而高效',
-    },
-    'l34ztyp1': {
-      'en': 'Multi -Currency',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
-    'fauck09p': {
-      'en':
-          'Access and manage multiple currencies seamlessly in one secure location. ',
+    '4hq0a5yg': {
+      'en': 'Say goodbye to restrictions',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
-    'kmg89v66': {
-      'en': 'Your Keys, Your funds',
+    'petick41': {
+      'en': '¡abre tu cuenta hoy y toma',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
-    'shnm19cm': {
-      'en':
-          'FirstClass Gassless Web3 Wallet . \n\nWe made crypto transfer simple',
+    'tnxg1i3z': {
+      'en': 'el control de tu dinero!',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
-    'p4dyty3s': {
-      'en': 'Login',
+    '84t7fj3u': {
+      'en': 'TrustWise Bank',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
-    '1nz5ff19': {
-      'en': 'Sign up ',
+    'j42637b2': {
+      'en': 'TrustWise makes global banking',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '7wqd08p4': {
+      'en': 'sea sencilla y eficiente.',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'cirstw9t': {
+      'en': 'Tus llaves, tus fondos',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'ib2qhina': {
+      'en': 'Simplificamos la transferencia',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'd06nibv5': {
+      'en': 'de criptomonedas',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'ttqa9xgf': {
+      'en': 'Millones de personas',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'kj7nzqxl': {
+      'en': 'confían en nosotros.',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '05qeifr1': {
+      'en': 'Nuestra tecnología de vanguardia',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'w0p3zmvo': {
+      'en': 'garantizan la accesibilidad permanente',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'h8qbc12n': {
+      'en': 'para todos nuestros clientes globales.',
       'ar': '',
       'es': '',
       'zh_Hans': '',
@@ -825,6 +871,57 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'x3ryodto': {
       'en': 'Config',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // ButtonLogin
+  {
+    'cv9hr6t2': {
+      'en': 'Login',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // SignUp
+  {
+    'rj59a5b5': {
+      'en': 'Sign up',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // page1
+  {
+    'jzd8xj1k': {
+      'en': 'BIENVENIDO a',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'qe9k4qwa': {
+      'en': 'TrustWise Bank',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    '3t41eu2q': {
+      'en': 'Dile adiós a las restricciones',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'lmxzg24c': {
+      'en': '¡abre tu cuenta hoy y toma',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'l4ahhlu2': {
+      'en': 'el control de tu dinero!',
       'ar': '',
       'es': '',
       'zh_Hans': '',

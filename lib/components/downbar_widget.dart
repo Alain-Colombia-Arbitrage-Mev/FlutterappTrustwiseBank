@@ -43,7 +43,7 @@ class _DownbarWidgetState extends State<DownbarWidget> {
       alignment: AlignmentDirectional(0.0, 1.0),
       child: Container(
         width: MediaQuery.sizeOf(context).width * 1.0,
-        height: 80.0,
+        height: 60.0,
         decoration: BoxDecoration(
           color: Colors.white,
         ),
@@ -59,132 +59,170 @@ class _DownbarWidgetState extends State<DownbarWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Column(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(0.0),
-                          child: SvgPicture.asset(
-                            'assets/images/home.svg',
-                            width: 30.0,
-                            height: 30.0,
-                            fit: BoxFit.fitHeight,
-                            alignment: Alignment(0.0, 0.0),
+                    SingleChildScrollView(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 5.0),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(0.0),
+                              child: SvgPicture.asset(
+                                'assets/images/home.svg',
+                                width: 24.0,
+                                height: 24.0,
+                                fit: BoxFit.fitHeight,
+                                alignment: Alignment(0.0, 0.0),
+                              ),
+                            ),
                           ),
-                        ),
-                        Text(
-                          FFLocalizations.of(context).getText(
-                            'iy8uq564' /* Home */,
+                          Text(
+                            FFLocalizations.of(context).getText(
+                              'iy8uq564' /* Home */,
+                            ),
+                            style: FlutterFlowTheme.of(context)
+                                .labelSmall
+                                .override(
+                                  fontFamily: 'Inter',
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                          style:
-                              FlutterFlowTheme.of(context).labelSmall.override(
-                                    fontFamily: 'Inter',
-                                    letterSpacing: 0.0,
-                                  ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                    Column(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(0.0),
-                          child: SvgPicture.asset(
-                            'assets/images/accounts.svg',
-                            width: 40.0,
-                            height: 30.0,
-                            fit: BoxFit.fitHeight,
+                    SingleChildScrollView(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 5.0),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(0.0),
+                              child: SvgPicture.asset(
+                                'assets/images/accounts.svg',
+                                width: 24.0,
+                                height: 24.0,
+                                fit: BoxFit.fitHeight,
+                              ),
+                            ),
                           ),
-                        ),
-                        Text(
-                          FFLocalizations.of(context).getText(
-                            '2xl4so34' /* Accounts */,
+                          Text(
+                            FFLocalizations.of(context).getText(
+                              '2xl4so34' /* Accounts */,
+                            ),
+                            style: FlutterFlowTheme.of(context)
+                                .labelSmall
+                                .override(
+                                  fontFamily: 'Inter',
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                          style:
-                              FlutterFlowTheme.of(context).labelSmall.override(
-                                    fontFamily: 'Inter',
-                                    letterSpacing: 0.0,
-                                  ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                    Column(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(8.0),
-                          child: SvgPicture.asset(
-                            'assets/images/sned.svg',
-                            width: 30.0,
-                            height: 30.0,
-                            fit: BoxFit.fitHeight,
+                    SingleChildScrollView(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Expanded(
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 0.0, 5.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(8.0),
+                                child: SvgPicture.asset(
+                                  'assets/images/sned.svg',
+                                  width: 24.0,
+                                  height: 24.0,
+                                  fit: BoxFit.fitHeight,
+                                  alignment: Alignment(0.0, 0.0),
+                                ),
+                              ),
+                            ),
                           ),
-                        ),
-                        Text(
-                          FFLocalizations.of(context).getText(
-                            'tbb565ls' /* Send */,
+                          Text(
+                            FFLocalizations.of(context).getText(
+                              'tbb565ls' /* Send */,
+                            ),
+                            style: FlutterFlowTheme.of(context)
+                                .labelSmall
+                                .override(
+                                  fontFamily: 'Inter',
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                          style:
-                              FlutterFlowTheme.of(context).labelSmall.override(
-                                    fontFamily: 'Inter',
-                                    letterSpacing: 0.0,
-                                  ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                    Column(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(8.0),
-                          child: SvgPicture.asset(
-                            'assets/images/recieve.svg',
-                            width: 30.0,
-                            height: 30.0,
-                            fit: BoxFit.fitWidth,
-                            alignment: Alignment(0.0, 0.0),
+                    SingleChildScrollView(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 5.0),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(8.0),
+                              child: SvgPicture.asset(
+                                'assets/images/recieve.svg',
+                                width: 24.0,
+                                height: 24.0,
+                                fit: BoxFit.fitWidth,
+                                alignment: Alignment(0.0, 0.0),
+                              ),
+                            ),
                           ),
-                        ),
-                        Text(
-                          FFLocalizations.of(context).getText(
-                            'ic4a2y60' /* Receive */,
+                          Text(
+                            FFLocalizations.of(context).getText(
+                              'ic4a2y60' /* Receive */,
+                            ),
+                            style: FlutterFlowTheme.of(context)
+                                .labelSmall
+                                .override(
+                                  fontFamily: 'Inter',
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                          style:
-                              FlutterFlowTheme.of(context).labelSmall.override(
-                                    fontFamily: 'Inter',
-                                    letterSpacing: 0.0,
-                                  ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                    Column(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(8.0),
-                          child: SvgPicture.asset(
-                            'assets/images/config.svg',
-                            width: 30.0,
-                            height: 30.0,
-                            fit: BoxFit.fitHeight,
+                    SingleChildScrollView(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 5.0),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(8.0),
+                              child: SvgPicture.asset(
+                                'assets/images/config.svg',
+                                width: 24.0,
+                                height: 24.0,
+                                fit: BoxFit.fitHeight,
+                              ),
+                            ),
                           ),
-                        ),
-                        Text(
-                          FFLocalizations.of(context).getText(
-                            'x3ryodto' /* Config */,
+                          Text(
+                            FFLocalizations.of(context).getText(
+                              'x3ryodto' /* Config */,
+                            ),
+                            style: FlutterFlowTheme.of(context)
+                                .labelSmall
+                                .override(
+                                  fontFamily: 'Inter',
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                          style:
-                              FlutterFlowTheme.of(context).labelSmall.override(
-                                    fontFamily: 'Inter',
-                                    letterSpacing: 0.0,
-                                  ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ],
                 ),
