@@ -838,6 +838,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
           'Introduzca el código de 6 dígitos que le enviamos al siguiente número:',
       'zh_Hans': '输入我们发送到以下号码的 6 位数代码：',
     },
+    'sufhx3va': {
+      'en': '',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
     'jdv620x4': {
       'en': 'Verify Code',
       'ar': 'رمز التحقق',
@@ -905,7 +911,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '',
     },
   },
-  // PushNotify
+  // PushMessage
   {
     '49lmgghf': {
       'en': 'Notification Title',
@@ -1041,39 +1047,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'rj59a5b5': {
       'en': 'Sign up',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-  },
-  // page1
-  {
-    'jzd8xj1k': {
-      'en': 'BIENVENIDO a',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'qe9k4qwa': {
-      'en': 'TrustWise Bank',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    '3t41eu2q': {
-      'en': 'Dile adiós a las restricciones',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'lmxzg24c': {
-      'en': '¡abre tu cuenta hoy y toma',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'l4ahhlu2': {
-      'en': 'el control de tu dinero!',
       'ar': '',
       'es': '',
       'zh_Hans': '',

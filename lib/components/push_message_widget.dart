@@ -5,18 +5,18 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'push_notify_model.dart';
-export 'push_notify_model.dart';
+import 'push_message_model.dart';
+export 'push_message_model.dart';
 
-class PushNotifyWidget extends StatefulWidget {
-  const PushNotifyWidget({super.key});
+class PushMessageWidget extends StatefulWidget {
+  const PushMessageWidget({super.key});
 
   @override
-  State<PushNotifyWidget> createState() => _PushNotifyWidgetState();
+  State<PushMessageWidget> createState() => _PushMessageWidgetState();
 }
 
-class _PushNotifyWidgetState extends State<PushNotifyWidget> {
-  late PushNotifyModel _model;
+class _PushMessageWidgetState extends State<PushMessageWidget> {
+  late PushMessageModel _model;
 
   @override
   void setState(VoidCallback callback) {
@@ -27,7 +27,7 @@ class _PushNotifyWidgetState extends State<PushNotifyWidget> {
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => PushNotifyModel());
+    _model = createModel(context, () => PushMessageModel());
   }
 
   @override
