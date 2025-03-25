@@ -186,17 +186,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '¿Cómo te llamas?',
       'zh_Hans': '你叫什么名字？',
     },
-    'srhzpx5f': {
-      'en':
-          'Enter a name that people would recognize so your friends can find you.',
-      'ar':
-          'أدخل اسمًا يمكن للآخرين التعرف عليه حتى يتمكن أصدقاؤك من العثور عليك.',
-      'es':
-          'Ingrese un nombre que la gente pueda reconocer para que sus amigos puedan encontrarlo.',
-      'zh_Hans': '输入一个人们能识别的名字，以便您的朋友可以找到您。',
-    },
     'tb2xlooe': {
-      'en': 'Your Name...',
+      'en': 'Name',
+      'ar': 'اسمك...',
+      'es': 'Su nombre...',
+      'zh_Hans': '您的名字...',
+    },
+    '9r3wr2an': {
+      'en': 'Lastname',
       'ar': 'اسمك...',
       'es': 'Su nombre...',
       'zh_Hans': '您的名字...',
@@ -225,17 +222,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '@fluffyfreddy',
       'zh_Hans': '@fluffyfreddy',
     },
-    'x8q4fw39': {
-      'en': 'Congrats! Your account is created!',
-      'ar': 'مبروك! تم إنشاء حسابك!',
-      'es': '¡Felicidades! ¡Tu cuenta está creada!',
-      'zh_Hans': '恭喜！您的帐户已创建！',
+    'i5qm7ftw': {
+      'en': 'Billing Address',
+      'ar': 'ما اسمك؟',
+      'es': '¿Cómo te llamas?',
+      'zh_Hans': '你叫什么名字？',
     },
-    'judgyyuu': {
-      'en': 'Just a few more steps and we\'ll have you onboarded!',
-      'ar': 'فقط بضع خطوات أخرى وسنقوم بإضافتك إلينا!',
-      'es': '¡Solo unos pocos pasos más y lo tendremos incorporado!',
-      'zh_Hans': '只需几个步骤，我们即可让您加入！',
+    '7n7989zc': {
+      'en': 'TextField',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    's5jri0vk': {
+      'en': 'TextField',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
     },
     'absw2zoe': {
       'en': 'Please enter your name to continue',
@@ -373,102 +376,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // auth_WelcomeScreen1
   {
-    'odv8xe9f': {
-      'en': 'Welcome to ',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'ywm2r5k0': {
-      'en': 'TrustWise Bank',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    '4hq0a5yg': {
-      'en': 'Say goodbye to restrictions',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'petick41': {
-      'en': '¡abre tu cuenta hoy y toma',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'tnxg1i3z': {
-      'en': 'el control de tu dinero!',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    '84t7fj3u': {
-      'en': 'TrustWise Bank',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'j42637b2': {
-      'en': 'TrustWise makes global banking',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    '7wqd08p4': {
-      'en': 'sea sencilla y eficiente.',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'cirstw9t': {
-      'en': 'Tus llaves, tus fondos',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'ib2qhina': {
-      'en': 'Simplificamos la transferencia',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'd06nibv5': {
-      'en': 'de criptomonedas',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'ttqa9xgf': {
-      'en': 'Millones de personas',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'kj7nzqxl': {
-      'en': 'confían en nosotros.',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    '05qeifr1': {
-      'en': 'Nuestra tecnología de vanguardia',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'w0p3zmvo': {
-      'en': 'garantizan la accesibilidad permanente',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    'h8qbc12n': {
-      'en': 'para todos nuestros clientes globales.',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
     'gu7rhcot': {
       'en': 'Home',
       'ar': 'بيت',
@@ -693,6 +600,251 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '登入',
     },
     'gn7eevxh': {
+      'en': 'Home',
+      'ar': 'بيت',
+      'es': 'Hogar',
+      'zh_Hans': '家',
+    },
+  },
+  // OnboardingUser
+  {
+    'th1jdvvc': {
+      'en': 'Validate Phone',
+      'ar': 'التحقق من صحة الهاتف',
+      'es': 'Validar teléfono',
+      'zh_Hans': '验证电话',
+    },
+    'rw3n5a2s': {
+      'en':
+          'Enter your phone number in order to get started with your profile creation.',
+      'ar': 'أدخل رقم هاتفك للبدء في إنشاء ملفك الشخصي.',
+      'es':
+          'Ingresa tu número de teléfono para comenzar con la creación de tu perfil.',
+      'zh_Hans': '输入您的电话号码即可开始创建您的个人资料。',
+    },
+    'mauvyy0k': {
+      'en': 'Phone Number',
+      'ar': 'رقم التليفون',
+      'es': 'Número de teléfono',
+      'zh_Hans': '电话号码',
+    },
+    'gezbu2y4': {
+      'en': 'We\'ll send a 6 digit code to you!',
+      'ar': 'سوف نرسل لك رمز مكون من 6 أرقام!',
+      'es': '¡Te enviaremos un código de 6 dígitos!',
+      'zh_Hans': '我们将向您发送一个6位数的代码！',
+    },
+    'e918r90q': {
+      'en': 'You will be done in no time, keep up the great work!',
+      'ar': 'سيتم الانتهاء منها في وقت قصير، استمر في العمل الرائع!',
+      'es': 'Terminarás en poco tiempo. ¡Sigue con el gran trabajo!',
+      'zh_Hans': '您很快就能完成，继续努力！',
+    },
+    's6pdjr3u': {
+      'en': 'Validate Email',
+      'ar': 'التحقق من صحة الهاتف',
+      'es': 'Validar teléfono',
+      'zh_Hans': '验证电话',
+    },
+    'buwmmop5': {
+      'en':
+          'Enter your e-mail in order to get started with your profile creation.',
+      'ar': 'أدخل رقم هاتفك للبدء في إنشاء ملفك الشخصي.',
+      'es':
+          'Ingresa tu número de teléfono para comenzar con la creación de tu perfil.',
+      'zh_Hans': '输入您的电话号码即可开始创建您的个人资料。',
+    },
+    'hytlhbtf': {
+      'en': 'Email @',
+      'ar': 'رقم التليفون',
+      'es': 'Número de teléfono',
+      'zh_Hans': '电话号码',
+    },
+    'fslvgof4': {
+      'en': 'We\'ll send a 6 digit code to you!',
+      'ar': 'سوف نرسل لك رمز مكون من 6 أرقام!',
+      'es': '¡Te enviaremos un código de 6 dígitos!',
+      'zh_Hans': '我们将向您发送一个6位数的代码！',
+    },
+    '4hl20qku': {
+      'en': 'You will be done in no time, keep up the great work!',
+      'ar': 'سيتم الانتهاء منها في وقت قصير، استمر في العمل الرائع!',
+      'es': 'Terminarás en poco tiempo. ¡Sigue con el gran trabajo!',
+      'zh_Hans': '您很快就能完成，继续努力！',
+    },
+    '11wrgbpv': {
+      'en': 'What\'s your name?',
+      'ar': 'ما اسمك؟',
+      'es': '¿Cómo te llamas?',
+      'zh_Hans': '你叫什么名字？',
+    },
+    'si5y9k4g': {
+      'en':
+          'Enter a name that people would recognize so your friends can find you.',
+      'ar':
+          'أدخل اسمًا يمكن للآخرين التعرف عليه حتى يتمكن أصدقاؤك من العثور عليك.',
+      'es':
+          'Ingrese un nombre que la gente pueda reconocer para que sus amigos puedan encontrarlo.',
+      'zh_Hans': '输入一个人们能识别的名字，以便您的朋友可以找到您。',
+    },
+    'ndnlt7ga': {
+      'en': 'Your Name...',
+      'ar': 'اسمك...',
+      'es': 'Su nombre...',
+      'zh_Hans': '您的名字...',
+    },
+    'nfk6nbxh': {
+      'en': 'Email ',
+      'ar': 'بريد إلكتروني',
+      'es': 'Correo electrónico',
+      'zh_Hans': '电子邮件',
+    },
+    '19pn1h3e': {
+      'en': 'Email Address:',
+      'ar': 'عنوان البريد الإلكتروني:',
+      'es': 'Dirección de correo electrónico:',
+      'zh_Hans': '电子邮件：',
+    },
+    'mkb27jhr': {
+      'en': 'Username',
+      'ar': 'اسم المستخدم',
+      'es': 'Nombre de usuario',
+      'zh_Hans': '用户名',
+    },
+    'y87vba3g': {
+      'en': '@fluffyfreddy',
+      'ar': '@فلوفي فريدي',
+      'es': '@fluffyfreddy',
+      'zh_Hans': '@fluffyfreddy',
+    },
+    'w6ohw07z': {
+      'en': 'Please enter your name to continue',
+      'ar': 'الرجاء إدخال اسمك للمواصلة',
+      'es': 'Por favor ingrese su nombre para continuar',
+      'zh_Hans': '请输入您的姓名以继续',
+    },
+    'ypmkp2k1': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': 'الرجاء اختيار خيار من القائمة المنسدلة',
+      'es': 'Por favor, elija una opción del menú desplegable.',
+      'zh_Hans': '请从下拉列表中选择一个选项',
+    },
+    'i0elnixe': {
+      'en': 'Upload your face',
+      'ar': 'قم بتحميل وجهك',
+      'es': 'Sube tu cara',
+      'zh_Hans': '上传你的脸部',
+    },
+    'go4zj1ir': {
+      'en':
+          'We need to know more about you, please help us with a clear selfie photo of your face',
+      'ar':
+          'نحن بحاجة إلى معرفة المزيد عنك، يرجى مساعدتنا في الحصول على صورة شخصية واضحة لوجهك',
+      'es':
+          'Necesitamos saber más sobre ti, por favor ayúdanos con una foto selfie nítida de tu rostro.',
+      'zh_Hans': '我们需要更多地了解你，请帮我们提供一张清晰的自拍照',
+    },
+    'zlwietc7': {
+      'en': 'Upload Image',
+      'ar': 'تحميل الصورة',
+      'es': 'Subir imagen',
+      'zh_Hans': '上传图片',
+    },
+    '8fsw456h': {
+      'en': 'How old are you?',
+      'ar': 'كم عمرك؟',
+      'es': '¿Cuántos años tiene?',
+      'zh_Hans': '你今年多大？',
+    },
+    'go1be4tg': {
+      'en': 'Let us know how old you are in order to continue.',
+      'ar': 'أخبرنا كم عمرك حتى نتمكن من الاستمرار.',
+      'es': 'Indícanos tu edad para poder continuar.',
+      'zh_Hans': '为了继续，请告知我们您的年龄。',
+    },
+    'aqc8cy1k': {
+      'en': 'Date of Birth',
+      'ar': 'تاريخ الميلاد',
+      'es': 'Fecha de nacimiento',
+      'zh_Hans': '出生日期',
+    },
+    '8diwwbuo': {
+      'en': 'Your profile!',
+      'ar': 'ملفك الشخصي!',
+      'es': '¡Tu perfil!',
+      'zh_Hans': '您的个人资料！',
+    },
+    'up9q8ddu': {
+      'en': 'Congrats, you made it! We can\'t wait for you to get started!',
+      'ar': 'مبروك، لقد نجحت! نتطلع بشوق لبدء مشروعك!',
+      'es': '¡Felicidades, lo lograste! ¡Estamos deseando que empieces!',
+      'zh_Hans': '恭喜，你成功了！我们迫不及待地想让你开始行动！',
+    },
+    'd42ho333': {
+      'en': 'Your name',
+      'ar': 'اسمك',
+      'es': 'Su nombre',
+      'zh_Hans': '您的名字',
+    },
+    '5n5yyg8o': {
+      'en': 'Username',
+      'ar': 'اسم المستخدم',
+      'es': 'Nombre de usuario',
+      'zh_Hans': '用户名',
+    },
+    'hxv9ba7i': {
+      'en': 'Your Bio',
+      'ar': 'سيرتك الذاتية',
+      'es': 'Tu biografía',
+      'zh_Hans': '你的简历',
+    },
+    '07cq71tx': {
+      'en': 'Hello World',
+      'ar': 'مرحبا بالعالم',
+      'es': 'Hola Mundo',
+      'zh_Hans': '你好世界',
+    },
+    '9fk6vebm': {
+      'en': 'Date of Birth',
+      'ar': 'تاريخ الميلاد',
+      'es': 'Fecha de nacimiento',
+      'zh_Hans': '出生日期',
+    },
+    'cmzug6p1': {
+      'en': 'Back',
+      'ar': 'خلف',
+      'es': 'Atrás',
+      'zh_Hans': '后退',
+    },
+    'fimhuz2l': {
+      'en': 'Home',
+      'ar': 'بيت',
+      'es': 'Hogar',
+      'zh_Hans': '家',
+    },
+  },
+  // auth_4_OnboardingEmaiverify
+  {
+    'ofdmqo89': {
+      'en': 'Verify Code',
+      'ar': 'رمز التحقق',
+      'es': 'Código de verificación',
+      'zh_Hans': '验证码',
+    },
+    'us2if5io': {
+      'en': 'Enter the 6 digit code we sent to the email below: ',
+      'ar': 'أدخل الرمز المكون من 6 أرقام الذي أرسلناه إلى الرقم أدناه:',
+      'es':
+          'Introduzca el código de 6 dígitos que le enviamos al siguiente número:',
+      'zh_Hans': '输入我们发送到以下号码的 6 位数代码：',
+    },
+    'jdv620x4': {
+      'en': 'Verify Code',
+      'ar': 'رمز التحقق',
+      'es': 'Código de verificación',
+      'zh_Hans': '验证码',
+    },
+    'lz8pzg49': {
       'en': 'Home',
       'ar': 'بيت',
       'es': 'Hogar',
@@ -927,28 +1079,73 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '',
     },
   },
+  // WelcomeScreen2
+  {
+    'olunb5t4': {
+      'en': 'Welcome to TrustWise',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'thxs6n9u': {
+      'en':
+          'Bank without borders—open your\n global account online and stay\nin control worldwide.',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
+  // WelcomeScreen3
+  {
+    'kqfpubxl': {
+      'en': 'Welcome to TrustWise',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'nggyiag6': {
+      'en':
+          'Bank without borders—open your\n global account online and stay\nin control worldwide.',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+  },
   // Miscellaneous
   {
     'uezboun9': {
-      'en': '',
+      'en': 'In order to verify identity, We need access to your camera',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
     'a3e6b11d': {
-      'en': '',
-      'ar': '',
-      'es': '',
-      'zh_Hans': '',
-    },
-    '8dnxdjox': {
-      'en': '',
+      'en': 'images library',
       'ar': '',
       'es': '',
       'zh_Hans': '',
     },
     'e9yrwfwi': {
-      'en': '',
+      'en': 'Push notiications',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'xw4gziq2': {
+      'en':
+          'In order to verify identity, We need access to your Face ID & FingerPrint',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'qly50zml': {
+      'en': ' We need access to your Bluetooth , For enable payments using NFC',
+      'ar': '',
+      'es': '',
+      'zh_Hans': '',
+    },
+    'ipzruptp': {
+      'en': 'Transfer Money to users need permission, to your contacts ',
       'ar': '',
       'es': '',
       'zh_Hans': '',

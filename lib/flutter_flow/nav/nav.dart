@@ -6,10 +6,8 @@ import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 import '/backend/backend.dart';
 
-import '/auth/base_auth_user_provider.dart';
+import '/auth/custom_auth/custom_auth_user_provider.dart';
 
-import '/backend/push_notifications/push_notifications_handler.dart'
-    show PushNotificationsHandler;
 import '/main.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/lat_lng.dart';
@@ -32,8 +30,8 @@ class AppStateNotifier extends ChangeNotifier {
   static AppStateNotifier? _instance;
   static AppStateNotifier get instance => _instance ??= AppStateNotifier._();
 
-  BaseAuthUser? initialUser;
-  BaseAuthUser? user;
+  TrustwiseAuthUser? initialUser;
+  TrustwiseAuthUser? user;
   bool showSplashImage = true;
   String? _redirectLocation;
 
@@ -58,7 +56,7 @@ class AppStateNotifier extends ChangeNotifier {
   /// to perform subsequent actions (such as navigation) afterwards.
   void updateNotifyOnAuthChange(bool notify) => notifyOnAuthChange = notify;
 
-  void update(BaseAuthUser newUser) {
+  void update(TrustwiseAuthUser newUser) {
     final shouldUpdate =
         user?.uid == null || newUser.uid == null || user?.uid != newUser.uid;
     initialUser ??= newUser;
@@ -138,6 +136,30 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: AuthSignupWidget.routeName,
           path: AuthSignupWidget.routePath,
           builder: (context, params) => AuthSignupWidget(),
+        ),
+        FFRoute(
+          name: OnboardingUserWidget.routeName,
+          path: OnboardingUserWidget.routePath,
+          builder: (context, params) => OnboardingUserWidget(
+            index: params.getParam(
+              'index',
+              ParamType.int,
+            ),
+          ),
+        ),
+        FFRoute(
+          name: Auth4OnboardingEmaiverifyWidget.routeName,
+          path: Auth4OnboardingEmaiverifyWidget.routePath,
+          builder: (context, params) => Auth4OnboardingEmaiverifyWidget(
+            phoneNumber: params.getParam(
+              'phoneNumber',
+              ParamType.String,
+            ),
+            isLogin: params.getParam(
+              'isLogin',
+              ParamType.bool,
+            ),
+          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -329,7 +351,7 @@ class FFRoute {
                     fit: BoxFit.fill,
                   ),
                 )
-              : PushNotificationsHandler(child: page);
+              : page;
 
           final transitionInfo = state.transitionInfo;
           return transitionInfo.hasTransition

@@ -5,7 +5,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:math';
 import 'dart:ui';
-import 'auth4_onboarding_one_widget.dart' show Auth4OnboardingOneWidget;
+import 'onboarding_user_widget.dart' show OnboardingUserWidget;
 import 'package:smooth_page_indicator/smooth_page_indicator.dart'
     as smooth_page_indicator;
 import 'package:cached_network_image/cached_network_image.dart';
@@ -18,13 +18,12 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:provider/provider.dart';
 
-class Auth4OnboardingOneModel
-    extends FlutterFlowModel<Auth4OnboardingOneWidget> {
+class OnboardingUserModel extends FlutterFlowModel<OnboardingUserWidget> {
   ///  State fields for stateful widgets in this page.
 
   final formKey3 = GlobalKey<FormState>();
-  final formKey2 = GlobalKey<FormState>();
   final formKey1 = GlobalKey<FormState>();
+  final formKey2 = GlobalKey<FormState>();
   // State field(s) for PageView widget.
   PageController? pageViewController;
 
@@ -38,45 +37,38 @@ class Auth4OnboardingOneModel
   TextEditingController? phoneNumberTextController;
   final phoneNumberMask = MaskTextInputFormatter(mask: '+1 (###) ###-####');
   String? Function(BuildContext, String?)? phoneNumberTextControllerValidator;
+  // State field(s) for Email widget.
+  FocusNode? emailFocusNode1;
+  TextEditingController? emailTextController1;
+  final emailMask1 = MaskTextInputFormatter(mask: '+1 (###) ###-####');
+  String? Function(BuildContext, String?)? emailTextController1Validator;
   // State field(s) for yourName widget.
-  FocusNode? yourNameFocusNode1;
-  TextEditingController? yourNameTextController1;
-  String? Function(BuildContext, String?)? yourNameTextController1Validator;
-  String? _yourNameTextController1Validator(BuildContext context, String? val) {
+  FocusNode? yourNameFocusNode;
+  TextEditingController? yourNameTextController;
+  String? Function(BuildContext, String?)? yourNameTextControllerValidator;
+  String? _yourNameTextControllerValidator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        'absw2zoe' /* Please enter your name to cont... */,
+        'w6ohw07z' /* Please enter your name to cont... */,
       );
     }
 
     return null;
   }
 
-  // State field(s) for yourName widget.
-  FocusNode? yourNameFocusNode2;
-  TextEditingController? yourNameTextController2;
-  String? Function(BuildContext, String?)? yourNameTextController2Validator;
   // State field(s) for Email widget.
-  FocusNode? emailFocusNode;
-  TextEditingController? emailTextController;
-  String? Function(BuildContext, String?)? emailTextControllerValidator;
+  FocusNode? emailFocusNode2;
+  TextEditingController? emailTextController2;
+  String? Function(BuildContext, String?)? emailTextController2Validator;
   // State field(s) for username widget.
   FocusNode? usernameFocusNode;
   TextEditingController? usernameTextController;
   String? Function(BuildContext, String?)? usernameTextControllerValidator;
-  // State field(s) for TextField widget.
-  FocusNode? textFieldFocusNode1;
-  TextEditingController? textController6;
-  String? Function(BuildContext, String?)? textController6Validator;
-  // State field(s) for TextField widget.
-  FocusNode? textFieldFocusNode2;
-  TextEditingController? textController7;
-  String? Function(BuildContext, String?)? textController7Validator;
   DateTime? datePicked;
 
   @override
   void initState(BuildContext context) {
-    yourNameTextController1Validator = _yourNameTextController1Validator;
+    yourNameTextControllerValidator = _yourNameTextControllerValidator;
   }
 
   @override
@@ -84,22 +76,16 @@ class Auth4OnboardingOneModel
     phoneNumberFocusNode?.dispose();
     phoneNumberTextController?.dispose();
 
-    yourNameFocusNode1?.dispose();
-    yourNameTextController1?.dispose();
+    emailFocusNode1?.dispose();
+    emailTextController1?.dispose();
 
-    yourNameFocusNode2?.dispose();
-    yourNameTextController2?.dispose();
+    yourNameFocusNode?.dispose();
+    yourNameTextController?.dispose();
 
-    emailFocusNode?.dispose();
-    emailTextController?.dispose();
+    emailFocusNode2?.dispose();
+    emailTextController2?.dispose();
 
     usernameFocusNode?.dispose();
     usernameTextController?.dispose();
-
-    textFieldFocusNode1?.dispose();
-    textController6?.dispose();
-
-    textFieldFocusNode2?.dispose();
-    textController7?.dispose();
   }
 }

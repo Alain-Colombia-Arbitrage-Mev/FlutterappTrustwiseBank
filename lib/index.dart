@@ -11,3 +11,7 @@ export '/simple_authentication/auth_forgot_password/auth_forgot_password_widget.
     show AuthForgotPasswordWidget;
 export '/simple_authentication/auth_signup/auth_signup_widget.dart'
     show AuthSignupWidget;
+export '/simple_authentication/onboarding_user/onboarding_user_widget.dart'
+    show OnboardingUserWidget;
+export '/simple_authentication/auth_4_onboarding_emaiverify/auth4_onboarding_emaiverify_widget.dart'
+    show Auth4OnboardingEmaiverifyWidget;

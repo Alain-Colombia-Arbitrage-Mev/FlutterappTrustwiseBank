@@ -60,16 +60,15 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 
-	<key>NSCameraUsageDescription</key>
-    <string>In order to take a picture or video, this app requires permission to access the camera.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-    <string>In order to upload data, this app requires permission to access the photo library.</string>
 
-    <key>UIBackgroundModes</key>
-    <array>
-        <string>fetch</string>
-        <string>remote-notification</string>
-    </array>
+	<key>PermissionGroupNotification</key>
+    <string>Push notiications</string>
+	<key>NSFaceIDUsageDescription</key>
+    <string>In order to verify identity, We need access to your Face ID & FingerPrint</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string> We need access to your Bluetooth , For enable payments using NFC</string>
+	<key>NSContactsUsageDescription</key>
+    <string>Transfer Money to users need permission, to your contacts </string>
 
 
 	<key>UILaunchStoryboardName</key>

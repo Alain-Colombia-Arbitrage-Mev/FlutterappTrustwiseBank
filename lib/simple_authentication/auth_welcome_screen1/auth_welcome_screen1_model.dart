@@ -1,14 +1,12 @@
-import '/components/button_login_widget.dart';
-import '/components/sign_up_widget.dart';
+import '/components/welcome_screen1_widget.dart';
+import '/components/welcome_screen2_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'dart:ui';
 import 'auth_welcome_screen1_widget.dart' show AuthWelcomeScreen1Widget;
 import 'package:smooth_page_indicator/smooth_page_indicator.dart'
     as smooth_page_indicator;
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
@@ -24,20 +22,20 @@ class AuthWelcomeScreen1Model
           pageViewController!.page != null
       ? pageViewController!.page!.round()
       : 0;
-  // Model for ButtonLogin component.
-  late ButtonLoginModel buttonLoginModel;
-  // Model for SignUp component.
-  late SignUpModel signUpModel;
+  // Model for WelcomeScreen1 component.
+  late WelcomeScreen1Model welcomeScreen1Model;
+  // Model for WelcomeScreen2 component.
+  late WelcomeScreen2Model welcomeScreen2Model;
 
   @override
   void initState(BuildContext context) {
-    buttonLoginModel = createModel(context, () => ButtonLoginModel());
-    signUpModel = createModel(context, () => SignUpModel());
+    welcomeScreen1Model = createModel(context, () => WelcomeScreen1Model());
+    welcomeScreen2Model = createModel(context, () => WelcomeScreen2Model());
   }
 
   @override
   void dispose() {
-    buttonLoginModel.dispose();
-    signUpModel.dispose();
+    welcomeScreen1Model.dispose();
+    welcomeScreen2Model.dispose();
   }
 }

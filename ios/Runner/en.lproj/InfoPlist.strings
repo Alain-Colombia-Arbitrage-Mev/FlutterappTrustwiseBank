@@ -1,1 +1,4 @@
-
+PermissionGroupNotification = "Push notiications";
+NSFaceIDUsageDescription = "In order to verify identity, We need access to your Face ID & FingerPrint";
+NSBluetoothAlwaysUsageDescription = " We need access to your Bluetooth , For enable payments using NFC";
+NSContactsUsageDescription = "Transfer Money to users need permission, to your contacts ";
